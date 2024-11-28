@@ -21,4 +21,13 @@ echo 'Deploying....'
 }
 
 }
+      post{
+      always{
+                echo 'Post build condition running'
+      }
+      failure{
+     
+      }
+        
+}
 }
